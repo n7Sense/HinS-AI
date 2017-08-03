@@ -1,3 +1,11 @@
+/* 
+ * File:   words.c
+ * Author: Rahul H. Rajbhar
+ * Organisation: nSense
+ *
+ * Created on July 26, 2017, 10:52 AM
+ */
+
 #include<stdio.h>  
 #include<conio.h>  
 void main(){  

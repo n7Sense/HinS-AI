@@ -1,0 +1,19 @@
+
+/* 
+ * File:   words.c
+ * Author: Rahul H. Rajbhar
+ * Organisation: nSense
+ *
+ * Created on July 26, 2017, 10:52 AM
+ */
+
+ class Employee{
+
+ 	String firstName;
+ 	String lastName;
+ 	String userName;
+ 	String password;
+ 	String address;
+ 	int salary;
+ 	int phone;
+ }
