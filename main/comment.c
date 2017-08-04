@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 
 int main(){
       FILE *fp;  
@@ -23,15 +23,15 @@ int main(){
 
 
 
-   //Algorithm
    /*
-   47-/
-   10-new-line
-   42-*
+   * function: Comment Algorithm
+   * 10->\n
+   * 42->*
+   * 47->/
    */
    int line=0;
    
-   while(q<30){
+   while(q!=charLength){
       //printf("%d.%d(%c)\n", q,stream[q], stream[q]); q++;
       if(stream[q]==10)
          ++line;
