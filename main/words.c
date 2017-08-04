@@ -1,7 +1,8 @@
 /* 
- * File:   words.c
- * Author: Rahul H. Rajbhar
  * Organisation: nSense
+ * Author: Rahul H. Rajbhar
+ * File:   words.c
+ * function: calculate no. of words in file.
  *
  * Created on July 26, 2017, 10:52 AM
  */

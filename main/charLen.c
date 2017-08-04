@@ -1,11 +1,11 @@
 /* 
- * File:   charLen.c
- * Author: Rahul H. Rajbhar
  * Organisation: nSense
+ * Author: Rahul H. Rajbhar
+ * File:   charLen.c
+ * function: Character Length Of File & assign Sating into array
  *
  * Created on July 26, 2017, 10:52 AM
  */
-
 #include <stdio.h>  
 #include <conio.h>  
 

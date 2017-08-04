@@ -1,3 +1,11 @@
+/* 
+ * Organisation: nSense
+ * Author: Rahul H. Rajbhar
+ * File:   comment.c
+ * function: Comment Algorithm
+ *
+ * Created on July 26, 2017, 10:52 AM
+ */
 #include <stdio.h>
 
 int main(){
@@ -24,7 +32,7 @@ int main(){
 
 
    /*
-   * function: Comment Algorithm
+   * 
    * 10->\n
    * 42->*
    * 47->/
