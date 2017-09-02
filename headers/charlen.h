@@ -1,16 +1,17 @@
 /* 
  * Organisation: nSense
  * Author: Rahul H. Rajbhar
- * FileType: C
+ * FileType: Header
  * File:   charLen.c
  * function: Character Length Of File & assign Sating into array
  *
  * Created on Aug 05, 2017, 02:37 PM
  */
+
 #include <stdio.h>  
 #include <conio.h>  
 
-void main (){
+void charLen(){
    
    FILE *fp;  
    int charLength;  
@@ -18,7 +19,8 @@ void main (){
 
    //Heare 'i' is use for store Chharacter into array & 'k' is ude for to print 'char' from the array
    int i=0, k=0;
-   
+
+   //
    int q = 0;
 
    //Get the Char length of the file
@@ -31,7 +33,7 @@ void main (){
    fp = fopen("e://o2jsf/main/Employee.ns", "r");
 
    //Put character stream in Array
-   while((ch=fgetc(fp))!=EOF){ 
+   while((ch=fgetc(fp))!=EOF){
    		stream[i] = ch;
    		i++;
 	}
