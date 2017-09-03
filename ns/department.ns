@@ -1,0 +1,7 @@
+class Department{
+	
+	String deptName;
+	String deptName;
+	String location;
+	String brance;
+}

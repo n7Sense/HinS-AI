@@ -1,0 +1,7 @@
+class Employee{
+	String firstName;
+	String lastName;
+	String address;
+	String email;
+	int salary;
+}

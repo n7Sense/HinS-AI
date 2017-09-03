@@ -3,5 +3,6 @@
 #include <dirent.h>
 #include <string.h>
 #include <errno.h>
-#include "version.h"
+#include "starNs.h"
+#include "command.h"
 //#include "getch.h"
