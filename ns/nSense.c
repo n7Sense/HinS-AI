@@ -1,8 +1,6 @@
 #include "header/header.h"
- 
-int main(int argc, char *argv[])
-{   
-    
+
+int main(int argc, char *argv[]){
     if(argc>=2){
 
         char *str=argv[1];
@@ -20,11 +18,13 @@ int main(int argc, char *argv[])
             if(argc>2){
                 int i=1;
                 while(i<argc){
-                    printf("if %s", getStr(argv[i]));
+                    //printf("%s", getStr(argv[i]));
+                    getStr(argv[i]);
                     i++;
                 }
             }else{
-                printf("else %s", getStr(argv[1]));
+                //printf("%s", getStr(argv[1]));
+                getStr(argv[1]);
             }
             
         }else{
