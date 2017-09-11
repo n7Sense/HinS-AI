@@ -12,32 +12,33 @@
 void comment(char stream[], char *fname){
    
       int charLength = strlen(stream);  
-      int q = 0, line=0, commentCount=0;
+      int q = 0,column=0, commentCount=0;
 
       while(q<=charLength){
-
+         
          if(stream[q]==47){
-            ++q;
-            ++commentCount;
-            if(stream[q]==47 || stream[q]==42){
-                    
-               if(stream[q]==47){
-                  --commentCount;
-                  while(stream[q]!=10){
-                     ++q;
-                  }
-               }
-               if(stream[q]==42){
-                  q++;
-                  while(q!=charLength){
-                     if(stream[q]==42 && stream[q+1]==47){
-                        ++q;
-                        --commentCount;
-                        break;
+
+            commentCount++;
+            if(stream[q+1]==47 || stream[q+1]==42){
+
+                  if(stream[q+1]==47){
+                     commentCount--;
+                     while(stream[q]!=10){
+                        q++;
                      }
-                     ++q;
                   }
-               }
+
+                  if(stream[q+1]==42){
+                     q=q+2;
+                     while(q!=charLength){
+                        if(stream[q]==42 && stream[q+1]==47){
+                           q++;
+                           commentCount--;
+                           break;
+                        }
+                        q++;
+                     }
+                  }
             }
          }
          q++; 

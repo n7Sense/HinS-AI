@@ -1,7 +1,7 @@
 /*
 * There is no error
 */
-/jhdddhd
+//jhdddhd
 class Department{
 	
 	String deptName;

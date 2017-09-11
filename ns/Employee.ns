@@ -1,7 +1,7 @@
 /*
 * There is no error
 */
-
+/**/
 class Employee{
 	String firstName;
 	String lastName;
