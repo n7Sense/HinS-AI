@@ -1,2 +1,2 @@
-# o2jsf
-Object Oriented JavaScript Framework
+# hins-Ai
+HinS framework & artificial intelligence
