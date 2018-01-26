@@ -4,6 +4,20 @@ HinS Framework & Artificial Intelligence include 3 main features
 •	HinS Interpreter & Compiler with good algorithm
 •	HinS-ORM (Object relation Mapping)
 •	HinS-AI, (just like windows has Cortana)
-SEU Aritificial Intelligence Projects include 4 different tasks:
 
-<h1> Helo</h1>
+This application work like a plugin for a developer. This
+application run behind the project of developer to keep-track of
+
+each and every code of project. It also has an “hi-nS Compiler
+and Interpreter” that will convert the hi-nS Domain into any
+programming language like Java, PHP, JavaScript, Html etc.,
+This plugin also works like an ORM Object-Relation
+Mapping to map Object with Database Model.
+This plugin is also work like an Automation Tool that helps
+to developer to generate his code automatically. If developer
+wants to create a page that shows the record of organization
+from different branches hear the developer does not need to type
+any code he just have to call the hi-nS AI by to talk directly
+through by microphone to say that “hi hinS I want the html page
+that ill show the record from different organization with this
+condition”.
